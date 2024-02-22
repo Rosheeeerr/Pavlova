@@ -1,0 +1,659 @@
+@font-face {
+    font-family: 'Reforma';
+    src: url('шрифты/ReformaGroteskMediumC.ttf');
+}
+@font-face {
+    font-family: 'ReformaB';
+    src: url('шрифты/ReformaGroteskBoldC.ttf');
+}
+
+@font-face {
+    font-family: 'ReformaC';
+    src: url('шрифты/ReformaGroteskDemiC.ttf');
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(картинки/ФонМашинок.png);
+    background-repeat: no-repeat;
+}
+.text-nav{
+    width: 35%;
+display: flex;
+justify-content: space-between;
+}
+.glav{
+    margin-left: 90px;
+}
+.text{
+    color: white;
+    font-size: 30px;
+    font-family:'Reforma' ;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.logo{
+margin-left: 150px;
+}
+.tx2{
+    height: 455px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+h1{
+    color: #DB3138;
+    font-family: 'ReformaB';
+    font-size: 130px;
+}
+.dots{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30px;
+}
+.lorem-nav{
+    margin-top: 30px;
+display: flex;
+justify-content: center;
+}
+.pis{   
+     width: 314px;
+    color: white;
+    font-size: 30px;
+    font-family:'Reforma' ;
+    text-align: center;
+}
+.wrapper{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.wi{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Reforma';
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .wi span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wi:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(219, 49, 56, 1);
+    transition: all .35s;
+  }
+  .wi:hover:after{
+    width: 70%;
+  }
+  .but{
+    height: 600px;
+    display:flex;
+    align-items: end;
+  }
+  .tdshka{
+    border-right: 2px white solid;
+}
+.tableee{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.tdshka{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -30px ;
+}
+
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'Reforma';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.white1{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+}
+.this-table{
+    height: 466px;
+    display: flex;
+    align-items:end ;
+}
+.sec{
+width: 100%;
+background-color: #141414;
+}
+.divvdive{
+    width: 1296px;
+    height: 745px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.div1{
+    width: 648px;
+    height: 745px;
+}
+
+.div2{
+    width: 648px;
+    height: 745px;
+    display: flex;
+}
+
+.achievments{
+    font-size: 52px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'ReformaC';
+}
+
+.tableee{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.tdshka{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -30px ;
+}
+
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaGroteskDemiC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.white1{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+}
+
+.itnotdots1{
+    margin-top: 40px;
+    width: 146px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textttt{
+    width: 526px;
+    height: 116px;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Reforma';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+}
+
+.table11{
+height: 708px;
+width: 318px;
+text-align: center;
+}
+
+.td1{
+    border: 1px white solid;
+    height: 177px;
+}
+
+.table12{
+    height: 708px;
+    width: 318px;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    right: 5px;
+}
+
+.red12{
+    color: #DB3138;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: 140%;
+    font-family: 'ReformaC';
+}
+
+.white12{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+}
+section.two{
+    width: 100%;
+    height: 580px;
+    background-color: #141414;
+    margin: 0 auto;
+}
+.main-2{
+    width: 92%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main-2-arrow-container-1, .main-2-arrow-container-2{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-2-arrow-border{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DB3138;
+    rotate: 45deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    cursor: pointer;
+}
+.main-2-arrow-1{
+    rotate: 135deg;
+}
+.main-2-arrow-2{
+    rotate: -45deg;
+}
+.main-2-img-container-1{
+    width: 416px;
+    height: 420px;
+    background-image: url(img/Rectangle\ 45.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.main-2-img-container-2{
+    width: 416px;
+    height: 420px;
+    background-image: url(img/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.main-2-img-container-3{
+    width: 416px;
+    height: 420px;
+    background-image: url(img/Rectangle\ 49.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.main-2-img-wall{
+    width: 90%;
+    height: 70px;
+    background-color: #DB3138;
+    margin-top: 50px;
+}
+.main-2-img-text{
+    font-size: 18px;
+    color: white;
+    font-family: 'ReformaC';
+    width: 60%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -36px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-container{
+    overflow: hidden;
+    width: 85%;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+}
+.sec3{
+    background-color: #141414;
+    width: 100%;
+}
+.knopki{
+    display: flex;
+    justify-content: space-between;
+    width:1600px;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+h7{
+    color: white;
+    font-family:'RefDemi';
+    font-size: 32px;
+    margin-left: 20px;
+}
+.best{
+    margin-left: 200px;
+    margin-top:400px;
+}
+.lor4{
+    font-size: 24px;
+    font-family:'Reforma';
+    color: white;
+    letter-spacing: 0.72px;
+    width: 526px;
+    margin-top: 50px;
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.best{
+    width: 500px;
+}
+.slid{
+    display: flex;
+    justify-content: end;
+    width: 1600px;
+    margin-top: -610px;
+}
+.ii{
+    background-color:rgba(20, 20, 20, 1); 
+    border: solid 3px rgba(219, 49, 56, 1);
+    transform: rotate(-45deg);  
+      width: 50px;
+height: 50px;
+}
+.bbt{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+}
+.n{
+ position: absolute;
+}
+.ll{
+    transform: rotate(45deg);  
+}
+.ll2{
+    transform: rotate(45deg);  
+}
+@media screen and (max-width:430px){
+header{
+    width: 100%;
+}
+nav{
+    width: 430px;
+}
+.text-nav{
+    width:300px;
+ gap: 20px;
+}
+.text{
+    font-size: 20px;
+}
+.log{
+       height: 30px;
+    width: 30px;
+    margin-right: 90px;
+}
+.tdshka{
+    width: 100px;
+}
+.fu{
+    width: 100px;
+}
+.white{
+width: 100px;
+} 
+.red{
+    width: 100px;
+    font-size: 10px;
+} 
+.red1{
+    width: 115px;
+    height: 160px;
+    font-size: 10px;
+}
+.tx2{
+    height: 293px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.wrapper{
+    height: 6px;
+}
+.tableee{
+    width: 400px;
+    height: 50px;
+   }
+   .achievments{
+    font-size: 20px;
+    width: 100px;
+    margin-left: 30px;
+   }
+   .textttt{
+    font-size: 10px;
+    width: 100px;
+    margin-left: 30px;
+   }
+   .table11{
+    width: 100px;
+    height: 50px;
+   }
+   .white12{
+    width: 60px;
+    font-size: 6px;
+    margin-left: 20px;
+   }
+   .div2{
+    margin-right: 900px;
+   }
+   .td1{
+    width: 30px;
+    height: 20px;
+   }
+   .tdshka{
+    width: 100px;
+   }
+   .red1{
+    width: 50px;
+    height: 10px;
+    font-size: 5px;
+   }
+   .white1{
+    font-size: 10px;
+   }
+   .table12{
+    width: 100px;
+    height: 50px;
+   }
+   .pid{
+width: 20px;
+height: 20px;
+   }
+   .secondBlock{
+    height: 450px;
+   }
+  .img1{
+    width: 175px;
+    height: 175px;
+  }
+  main section.two{
+    width: 430px;
+    height: 180px;
+}
+div.main-2{
+    width: 430px;
+    height: 140px;
+}
+div.main-2-arrow-container-1, div.main-2-arrow-container-2{
+    width: 50px;
+    height: 140px;
+}
+button.prev, button.next{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #DB3138;
+}
+img.main-2-arrow-1, img.main-2-arrow-2{
+    width: 4px;
+}
+div.slider-container{
+    width: 320px;
+    height: 140px;
+}
+div.slider{
+    width: 320px;
+    height: 140px;
+}
+div.main-2-img-container-1, div.main-2-img-container-2, div.main-2-img-container-3{
+    width: 100px;
+    height: 140px;
+    background-size: 120px;
+    background-position: top;
+}
+div.main-2-img-wall{
+    width: 80px;
+    height: 20px;
+}
+p.main-2-img-text{
+    width: 80px;
+    height: 40px;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0;
+    margin-top: -10px;
+}
+}
